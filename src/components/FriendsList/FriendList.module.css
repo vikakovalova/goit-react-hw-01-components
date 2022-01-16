@@ -1,0 +1,14 @@
+.item {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  border: 1px solid #ccc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 5px;
+  box-shadow: 17px 9px 22px -5px rgba(149, 159, 167, 0.53);
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}

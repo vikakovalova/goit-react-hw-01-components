@@ -1,0 +1,26 @@
+.status {
+  width: 15px;
+  height: 15px;
+  border: 1px solid inherit;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.statusOnline {
+  background-color: green;
+}
+
+.statusOffline {
+  background-color: red;
+}
+
+.avatar {
+  margin-right: 10px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+.name {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
